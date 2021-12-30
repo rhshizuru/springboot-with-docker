@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: zasmin/sit-cicd-demo:2.0
+          image: lambdakim/sit-cicd-demo:1.0
           ports:
             - containerPort: 8080
           env:
